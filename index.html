@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <title>MediCenter</title>
 </head>
 <body>
-    <header><!--HEADER START-->
+    <header id="heeader"><!--HEADER START-->
         <div class="container">
 
             <div class="logo"><!--LOGO-->
@@ -16,15 +17,22 @@
             </div>
 
             <div class="menu"><!--MENU DE NAVIGAÇÃO-->
+                <label for="input">
+                    <i class="fas fa-bars fa-3x"></i>
+                </label>
+                <input type="checkbox" name="check" id="input">
                 <nav class="menu_navigation">
                     <ul class="menu_list">
                         <li class="active"><a href="">Home</a></li>
                         <li><a href="">Home</a></li>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Home</a></li>
+                        <li><a href="">Department</a></li>
+                        <li><a href="">Queries</a></li>
+                        <li><a href="">News Latest</a></li>
+                        <li><a href="">Make</a></li>
+                        <li><a href="">About us</a></li>
+                        <label for="input">
+                            <div class="close">X</div>
+                        </label>
                     </ul>
                 </nav>
             </div>
@@ -34,7 +42,7 @@
 
     <section id="banner"><!--BANNER START-->
 
-        <div class="container banner_column">
+        <div class="container column">
 
             <article class="banner_headline">
                 <h1 class="banner_title">Top notch experience</h1>
@@ -42,6 +50,7 @@
             </article>
 
             <div class="banner_options">
+
                 <article class="options1"><!--Emergency Case-->
                     <h3 class="options_title">Emergency Case</h3>
                     <p class="options_paragraph">
@@ -49,6 +58,7 @@
                     </p>
                     <a href="">Read more  &rarr;</a>
                 </article>
+
                 <article class="options2"><!--Doctors Timetable-->
                     <h3 class="options_title">Doctors Timetable</h3>
                     <p class="options_paragraph">
@@ -56,6 +66,7 @@
                     </p>
                     <a href="">Read more  &rarr;</a>
                 </article>
+                
                 <article class="options3"><!--Opening hours-->
                     <h3 class="options_title">Opening hours</h3>
                     <div class="opening_hours margin">
@@ -68,6 +79,7 @@
                         <div class="day">Sunday</div> <div class="hours">9:30 &ndash; 15:00</div>
                     </div>
                 </article>
+
             </div>
 
         </div>
@@ -177,20 +189,18 @@
 
             <aside class="content_aside"><!--SIDE CONTENT START-->
 
-                <div class="widget"><!--TITLE START-->
+                <div class="widget">
                     <h1 class="widget_title">Department</h1>
                     <div class="widget_bar"></div>
-                </div><!--TITLE END-->
+                </div>
 
-                <section class="body_aside">
-
-                        <div class="body_article"></div>
-                        <div class="body_article"></div>
-                        <div class="body_article"></div>
-                        <div class="body_article"></div>
-                        <div class="body_article"></div>
-                        <div class="body_article"></div>
-                
+                <section class="body_content">
+                    <article class="body_article"></article>
+                    <article class="body_article"></article>
+                    <article class="body_article"></article>
+                    <article class="body_article"></article>
+                    <article class="body_article"></article>
+                    <article class="body_article"></article>
                 </section>
 
 
@@ -199,12 +209,156 @@
                     <div class="widget_bar"></div>
                 </div>
 
-                <section class="widget_body">
-                    ABC
+                <section class="body_content">
+                    <div class="information">
+                        <p class="info_details">Lorem ipsum. Dedicated to medical and health care instituicions, clinics and hospitails
+                        </p>
+                        <div class="info_phone">
+                            <i class="fas fa-phone-square-alt fa-2x"></i> <span> phone: <strong>1-800-673-4300</strong></span>
+                        </div>
+                        <div class="info_email">
+                            <i class="fas fa-envelope fa-2x"></i> <span> e-mail: medicenter@medicenter.com</span>
+                        </div>
+                        <div class="info_page">
+                            <i class="fas fa-file-alt fa-2x"></i> <span>or <strong>enter inf the formon</strong> our contact page</span>
+                        </div>
+                    </div>
                 </section>
 
             </aside><!--SIDE CONTENT END-->
         </div>
     </section><!--GENERAL END-->
+
+    <footer id="footer"><!--FOOTER START-->
+        <div class="container column">
+            <section class="footer_content"><!--FOOTER CONTENT START-->
+                <article class="fc_1">
+                    <h1 class="fc_title">Health Insurance</h1>
+                    <p class="fc_paragraph">Here in medcenter we have individual &rarr;</p>
+                </article>
+
+                <article class="fc_2">
+                    <h1 class="fc_title">Medical Records</h1>
+                    <p class="fc_paragraph">Here in medcenter we have individual &rarr;</p>
+                </article>
+
+                <article class="fc_3">
+                    <h1 class="fc_title">Online Bill Pay</h1>
+                    <p class="fc_paragraph">Here in medcenter we have individual &rarr;</p>
+                </article>
+
+            </section><!--FOOTER CONTENT END-->
+
+            <section class="footer_area"><!--FOOTER AREA START-->
+                <article class="area_item">
+
+                    <div class="widget"><!--TITLE START-->
+                        <h1 class="widget_title">Medicenter Clinic</h1>
+                        <div class="widget_bar"></div>
+                    </div><!--TITLE END-->
+
+                    <p class="a_paragraph">Mauris adipisicing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.</p>
+
+                    <div class="content_contact">
+                        <address class="a_adress">
+                            Medicenter Clinic<br>
+                            33 Farlane<br>
+                            Keitor East<br>
+                            VIC 3033, Australia<br>
+                        </address>
+
+                        <div class="contact">
+                            +123 655 655<br>
+                            +123 755 755 <br>
+                            <span>medicenter@mail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="social_network">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fas fa-calendar-alt"></i>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                </article>
+
+                <article class="area_item">
+
+                    <div class="widget"><!--TITLE START-->
+                        <h1 class="widget_title">Latest Posts</h1>
+                        <div class="widget_bar"></div>
+                    </div><!--TITLE END-->
+                    <div class="content_post">
+
+                        <div class="content_arrows">
+                            <div class="arrow">&rarr;</div>
+                            <div class="arrow arrow_margin">&rarr;</div>
+                            <div class="arrow">&rarr;</div>
+                        </div>
+
+                        <div class="post_body">
+                            <div class="posts">
+                                <p class="p_paragraph">Mauris adipisicing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.</p>
+                                <span class="years">6 years ago</span>
+                            </div>
+
+                            <div class="posts">
+                                <p class="p_paragraph">Lorem ipsum dolor sit amat velum</p>
+                                <span class="years">6 years ago</span>
+                            </div>
+
+                            <div class="posts">
+                                <p class="p_paragraph">Mauris adipisicing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.</p>
+                                <span class="years">6 years ago</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <article class="area_item">
+
+                    <div class="widget"><!--TITLE START-->
+                        <h1 class="widget_title">Latest Tweets</h1>
+                        <div class="widget_bar"></div>
+                    </div><!--TITLE END-->
+
+                    <div class="content_post">
+
+                        <div class="content_arrows">
+                            <div class="arrow">&rarr;</div>
+                            <div class="arrow arrow_margin">&rarr;</div>
+                            <div class="arrow">&rarr;</div>
+                        </div>
+
+                        <div class="post_body">
+                            <div class="posts">
+                                <p class="l_paragraph">We've released new version (v1.2) of our #CleanMate #Cleaning Company #maid #Gardenig #WordPress Theme. Please che... <span>t.oo/tYkhmpb30</span>.</p>
+                                <span class="years">4 years ago</span>
+                            </div>
+
+                            <div class="posts">
+                                <p class="l_paragraph">We've released new version (v5.1) of our #Timetable #Responsive #Schedule #WP Plugins. Please check at #CodeCanyon <span>t.oolwUTgd2attO</span></p>
+                                <span class="years">6 years ago</span>
+                            </div>
+
+                            <div class="posts">
+                                <p class="l_paragraph">We've released new version (v5.0) of our #Timetable #Responsive #Schedule #WP Plugins. Please check at #CodeCanyon <span>t.oo/FwvKmDoC</span></p>
+                                <span class="years">7 years ago</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </article>
+            </section><!--FOOTER AREA END-->
+
+            <section class="footer_copy">
+                <p>&copy; Copyright - <span>MedCenter Template</span> by <span>QuanticaLabs</span></p>
+            </section>
+        </div>
+    </footer><!--FOOTER end-->
 </body>
 </html>
