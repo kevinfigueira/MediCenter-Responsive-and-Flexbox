@@ -3,7 +3,7 @@
 
   &#xa0;
 
-   <a href="https://medicenterresponsiveandflexbox.netlify.app">Demo</a>
+   <a href="https://kevinfigueira.github.io/MediCenter-Responsive-and-Flexbox/">Demo</a>
 </div>
 
 <h1 align="center">MediCenter Responsive And Flexbox</h1>
